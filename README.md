@@ -27,7 +27,7 @@ A small website created using REACT and TAILWIND CSS, where one can choose their
 
 ## 🛠️ Installation
 
-1. **Clone the Repository**
+1. Clone the Repository
    ```bash
    git clone https://github.com/your-username/car-finder.git
    cd car-finder
