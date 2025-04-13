@@ -34,7 +34,6 @@ A small website created using REACT and TAILWIND CSS, where one can choose their
 2.Install Dependencies
 
     npm install
-    Run the App
     
 3.RUN the WEB APP
 
