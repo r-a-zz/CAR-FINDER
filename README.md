@@ -59,7 +59,7 @@ npm install
 npm run dev
 ```
 📁 Project Structure
-
+```kotlin
 car-finder/
 ├── public/
 ├── src/
@@ -77,7 +77,7 @@ car-finder/
 ├── index.html
 ├── package.json
 └── README.md
-
+```
 
 Icons by Lucide Icons
 
