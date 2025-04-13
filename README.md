@@ -1,81 +1,12 @@
-# CAR-FINDER
-A small website created using REACT and TAILWIND CSS, where one can choose their best car by filtering it. A responsive website working well in mobile phones.
+# React + Vite
 
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## ✨ Features
+Currently, two official plugins are available:
 
-- **Dynamic Filtering** (Brand, Fuel Type, Seating Capacity, Price Range)
-- **Wishlist Support** using `localStorage`
-- **Modern UI/UX** powered by Tailwind CSS
-- **Sorting Functionality** (Ascending / Descending by Price)
-- **Responsive Design** for mobile, tablet, and desktop
-- **Scroll-To-Top** button for better UX
-- **Animated Hero Section**
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## 🚀 Tech Stack
-
-- **Frontend**: React + Vite
-- **Styling**: Tailwind CSS
-- **Icons**: Lucide Icons
-- **Animations** *(optional)*: react-tsparticles
-- **State Management**: React Hooks (`useState`, `useEffect`)
-- **Custom Hooks**: `useWishlist` for managing wishlist logic
-
----
-
-## 🛠️ Installation
-
-1. Clone the Repository
-   ```bash
-   git clone https://github.com/your-username/car-finder.git
-   cd car-finder
-2.Install Dependencies
-
-    npm install
-    
-3.RUN the WEB APP
-
-    npm run dev
-    
-4.Visit http://localhost:5173 in your browser.
-
-🗂️ Project Structure
-php
-Copy
-Edit
-car-finder/
-├── public/
-├── src/
-│   ├── components/     # Navbar, Filters, CarList, Hero, etc.
-│   ├── data/           # Car data (JSON or JS)
-│   ├── hooks/          # Custom hooks like useWishlist
-│   ├── App.jsx         # Main app component
-│   └── main.jsx        # Entry point
-├── tailwind.config.js
-├── package.json
-└── README.md
-
-
-✅ Future Enhancements:-
-
-🌙 Add Dark Mode
-
-🔊 Integrate a Music Player in Navbar
-
-📁 Load car data from an API or Database
-
-💬 Add Car Comparison feature
-
-📦 Deploy to Vercel / Netlify / GitHub Pages
-
-Acknowledgements:-
-Thanks to the Lucide team for clean icons.
-
-Special shoutout to react-tsparticles for background magic.
-
-Built with ❤️ by Raj.
-
-📄 License
-This project is licensed under the MIT License.
+If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
